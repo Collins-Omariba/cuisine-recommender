@@ -18,7 +18,7 @@ cd cuisine-recommender
 pip install -r requirements.txt
 ```
 ## Usage
-
+![screenshot of cuisine recommender wep app](./img/cuisine%20recommender.png?raw=true "Screen Shot") <br>
 1.Open the index.html file in your browser<br>
 
 2.Enter the ingredients you have on hand into the form.<br>
