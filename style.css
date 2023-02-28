@@ -1,0 +1,57 @@
+/* Set the background color to a greyish blue */
+body {
+    background-color: #F2F3F4;
+  }
+  
+  /* Style the heading */
+  h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  /* Style the container for the checkboxes */
+  #wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Style the checkbox containers */
+  .boxCont {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+  }
+  
+  /* Style the checkboxes */
+  .checkbox {
+    margin-right: 0.5rem;
+  }
+  
+  /* Style the labels for the checkboxes */
+  label {
+    font-size: 1.5rem;
+  }
+  
+  /* Style the button */
+  button {
+    display: block;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    padding: 0.5rem 1.5rem;
+    background-color: #333;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  /* Make the button responsive */
+  @media screen and (max-width: 768px) {
+    button {
+      font-size: 1.2rem;
+    }
+  }
+  
